@@ -58,15 +58,13 @@
 
 ## 📸 Screenshots
 
-> *(Add actual screenshots by replacing the placeholder paths below)*
-
 | Home Page – Hero | Shop Page – Product Grid |
 |:---:|:---:|
-| ![Home Hero](https://via.placeholder.com/600x350/F14C25/ffffff?text=Hero+Section) | ![Shop Grid](https://via.placeholder.com/600x350/333333/ffffff?text=Product+Grid) |
+| <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/e1490afe-c7f1-41e3-9897-913018fae68e" /> | <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/6f16a184-8441-495d-9508-17fee99136c3" /> |
 
 | Product Detail | About Page |
 |:---:|:---:|
-| ![Product Detail](https://via.placeholder.com/600x350/eeeeee/333333?text=Product+Detail) | ![About](https://via.placeholder.com/600x350/F14C25/ffffff?text=About+Page) |
+| <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/d12e733e-41c3-40e9-b867-149930101c71" /> | <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/a1b58c2e-3e81-4217-8d73-e138f2717d7b" /> |
 
 ---
 
