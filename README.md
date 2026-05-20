@@ -1,72 +1,235 @@
-# Getting Started with Create React App
+# 🛍️ EliteMart - Modern E-Commerce Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**EliteMart** is a fully responsive, feature-rich e-commerce web application built with **React 18** and **Material UI (MUI v6)**. It delivers a seamless online shopping experience with dynamic product browsing, real-time search & filtering, detailed product views, and a modern, visually appealing UI.
 
-## Available Scripts
+> **🌐 Live Demo:** [https://elite-mart-ruddy.vercel.app/](https://elite-mart-ruddy.vercel.app/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🏠 Landing & Navigation
+- **Hero Section** - Full-screen welcome banner with brand messaging and background imagery.
+- **Responsive Navbar** - Collapsible hamburger menu on mobile; smooth hover effects on desktop; logo + quick links (Home, About, Shop).
+- **Persistent Footer** - Logo, tagline, quick links, social media icons (Facebook, Instagram, Twitter), and contact information.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🛒 Product Catalog
+- **Category Filtering** - Chip-based category selector to filter products instantly.
+- **Live Search** - Real-time text search across product titles.
+- **Smart Product Cards** - Each card displays: product image, title, brand, tags, price, discount percentage, and star rating.
+- **No Data State** - Graceful "no results" component when filters yield no matches.
 
-### `npm test`
+### 📄 Product Detail Page
+- **Image Gallery** - Clickable thumbnail strip with full-size image preview.
+- **Detailed Info Panel** - Brand, title, rating, review count, discount badge, original vs. discounted price, shipping information.
+- **Specifications Table** - Description, warranty information, return policy, and availability status.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### ℹ️ About Page
+- **About Us Section** - Brand story, mission statement, and value propositions.
+- **Call-to-Action Banner** - Eye-catching promotional banner with "Start Shopping" CTA button.
 
-### `npm run build`
+### 🚫 404 Error Page
+- Custom illustrated 404 page with humorous copy ("This Page is Out of Stock – But Our Homepage Isn't!") and a "Go Home" button.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🎨 UI/UX Highlights
+- **Material UI v6** - Consistent, modern component library with theming.
+- **Fully Responsive** - Optimized for mobile, tablet, and desktop viewports.
+- **Custom Brand Colors** - Signature orange (#F14C25) accent throughout.
+- **Fade-in Animations** - Smooth entry animations on key sections.
+- **CSS Grid & Flexbox** - Clean, adaptive layouts via MUI's Grid2 and Box components.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠 Tech Stack
 
-### `npm run eject`
+| Technology | Purpose |
+|---|---|
+| **React 18** | UI library (component-based architecture) |
+| **React Router DOM v7** | Client-side routing (SPA navigation) |
+| **Material UI (MUI) v6** | UI component library with icons & emotion styling |
+| **Axios** | HTTP client for API requests |
+| **Styled Components** | CSS-in-JS styling (used alongside MUI) |
+| **Moment.js** | Date formatting utilities |
+| **CSS3** | Custom styles & global resets |
+| **DummyJSON API** | Mock product data (1,000+ products) |
+| **Vercel** | Deployment & hosting |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📸 Screenshots
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+> *(Add actual screenshots by replacing the placeholder paths below)*
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+| Home Page – Hero | Shop Page – Product Grid |
+|:---:|:---:|
+| ![Home Hero](https://via.placeholder.com/600x350/F14C25/ffffff?text=Hero+Section) | ![Shop Grid](https://via.placeholder.com/600x350/333333/ffffff?text=Product+Grid) |
 
-## Learn More
+| Product Detail | About Page |
+|:---:|:---:|
+| ![Product Detail](https://via.placeholder.com/600x350/eeeeee/333333?text=Product+Detail) | ![About](https://via.placeholder.com/600x350/F14C25/ffffff?text=About+Page) |
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚀 Quick Start
 
-### Code Splitting
+### Prerequisites
+- **Node.js** v16+ & **npm** v8+ (or **pnpm**)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Installation
 
-### Analyzing the Bundle Size
+```bash
+# 1. Clone the repository
+git clone https://github.com/pavithrabhat9/-EliteMart.git
+cd -EliteMart
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# 2. Install dependencies
+npm install
 
-### Making a Progressive Web App
+# 3. Start the development server
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The app will be available at [http://localhost:3000](http://localhost:3000).
 
-### Advanced Configuration
+### Build for Production
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm run build
+```
 
-### Deployment
+Creates an optimized production build in the `build/` folder.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 📁 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+EliteMart/
+├── public/                          # Static assets
+│   ├── index.html                   # HTML entry point
+│   ├── favicon.ico                  # Browser favicon
+│   ├── manifest.json                # PWA manifest
+│   ├── robots.txt                   # SEO crawler rules
+│   ├── e-bazaar.png                 # Brand logo
+│   ├── icon.png / logo192/512.png   # App icons
+│   └── ...
+├── src/
+│   ├── index.js                     # React DOM entry
+│   ├── index.css                    # Global styles
+│   ├── App.js                       # Root component + routing
+│   ├── App.css                      # App-level styles
+│   │
+│   ├── Assets/
+│   │   └── Images/                  # Static image assets
+│   │       ├── EMlogo.png           # Navbar logo
+│   │       ├── bg5.jpg              # Hero background
+│   │       ├── banner1.jpg          # Banner background
+│   │       ├── bg8.jpg              # About section image
+│   │       ├── 404Page.png          # Error illustration
+│   │       └── nopage2.webp         # Alternative 404 image
+│   │
+│   ├── Components/                  # Reusable UI components
+│   │   ├── NavBar.jsx               # Responsive navigation bar
+│   │   ├── Footer.jsx               # Site footer with links & socials
+│   │   ├── Hero.jsx                 # Landing page hero section
+│   │   ├── Banner.jsx               # Call-to-action promotional banner
+│   │   ├── AboutContent.jsx         # About Us content block
+│   │   ├── ProductCard.jsx          # Product grid card
+│   │   └── NoData.jsx               # Empty state placeholder
+│   │
+│   └── Pages/                       # Route-level page components
+│       ├── Home.jsx                 # Landing page (Hero + About + Banner)
+│       ├── Shop.jsx                 # Product catalog with search & filters
+│       ├── SingleProduct.jsx        # Product detail view
+│       ├── About.jsx                # About page
+│       └── Error.jsx                # 404 not-found page
+├── package.json                     # Dependencies & scripts
+├── README.md                        # You are here 📘
+└── .gitignore                       # Git exclusion rules
+```
 
-### Live link https://digibazaar.vercel.app/
+---
+
+## 🧩 Key Components
+
+| Component | Description |
+|---|---|
+| **NavBar** | Fixed-position app bar with logo, responsive hamburger menu, and page links styled with hover transitions. |
+| **Hero** | Full-viewport hero with background image, brand headline ("Welcome to EliteMart"), tagline, and descriptive copy. |
+| **Banner** | Section with background image + dark overlay, CTA heading, description, and "Start Shopping" button navigating to `/shop`. |
+| **AboutContent** | Split layout with image and text; highlights brand values, product categories, and service promises. |
+| **ProductCard** | Material UI Paper card showing thumbnail, title, brand, tags, price with discount strikethrough, discount %, and rating chip. Wraps in a `<Link>` to the product detail page. |
+| **NoData** | Placeholder shown when search/filter yields zero results. |
+| **Footer** | Three-column layout: logo + tagline, quick links, social icons + contact details; copyright notice. |
+
+---
+
+## 📦 Dependencies
+
+### Core
+| Package | Version | Purpose |
+|---|---|---|
+| `react` | ^18.3.1 | UI library |
+| `react-dom` | ^18.3.1 | React DOM renderer |
+| `react-router-dom` | ^7.0.2 | Client-side routing |
+
+### UI & Styling
+| Package | Version | Purpose |
+|---|---|---|
+| `@mui/material` | ^6.2.0 | Material UI component library |
+| `@mui/icons-material` | ^6.2.0 | Material Design icons |
+| `@emotion/react` | ^11.14.0 | CSS-in-JS engine (MUI peer dep) |
+| `@emotion/styled` | ^11.14.0 | Styled component API for MUI |
+| `styled-components` | ^6.1.13 | Additional CSS-in-JS styling |
+
+### Data & Utilities
+| Package | Version | Purpose |
+|---|---|---|
+| `axios` | ^1.7.9 | HTTP client for API calls |
+| `moment` | ^2.30.1 | Date/time formatting |
+| `web-vitals` | ^2.1.4 | Performance metrics |
+
+### Testing
+| Package | Version | Purpose |
+|---|---|---|
+| `@testing-library/react` | ^16.1.0 | React component testing |
+| `@testing-library/jest-dom` | ^5.17.0 | Custom DOM matchers |
+| `@testing-library/user-event` | ^13.5.0 | Simulated user events |
+
+---
+
+## 📜 Available Scripts
+
+| Script | Command | Description |
+|---|---|---|
+| `start` | `npm start` | Runs the app in development mode on port 3000 |
+| `build` | `npm run build` | Creates an optimized production build in `build/` |
+| `test` | `npm test` | Launches the test runner in interactive watch mode |
+| `eject` | `npm run eject` | Ejects from Create React App (one-way operation) |
+
+---
+
+## 🌍 Deployment
+
+This application is deployed on **Vercel**. The live site is accessible at:
+
+👉 **[https://elite-mart-ruddy.vercel.app/](https://elite-mart-ruddy.vercel.app/)**
+
+### Deploy Your Own
+
+1. Push the repository to GitHub (or GitLab / Bitbucket).
+2. Import the project into [Vercel](https://vercel.com/).
+3. Vercel will automatically detect Create React App settings.
+4. Click **Deploy** — your app will be live in seconds.
+
+---
+
+## 📄 License
+
+This project is **private** and was developed for educational/demonstration purposes. 
+
+---
+
+<p align="center">
+  Built with ❤️ using <strong>React</strong> & <strong>Material UI</strong>
+</p>
